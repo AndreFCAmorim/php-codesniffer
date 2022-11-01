@@ -4,4 +4,4 @@ if "%PHP_PEAR_PHP_BIN%" neq "" (
     set PHPBIN=%PHP_PEAR_PHP_BIN%
 ) else set PHPBIN=php
 
-"%PHPBIN%" "c:\Users\andre\AppData\Roaming\Composer\vendor\bin\phpcs" %*
+"%PHPBIN%" "%APPDATA%\Composer\vendor\bin\phpcs" %*
